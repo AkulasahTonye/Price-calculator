@@ -43,4 +43,5 @@ func WriteJson(path string, data interface{}) error {
 	}
 	file.Close()
 	return nil
+
 }
